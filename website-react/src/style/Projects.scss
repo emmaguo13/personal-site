@@ -1,0 +1,32 @@
+.projects{
+    background: linear-gradient(90deg, $primary-200 20%,$primary-100 20%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    .project-section {
+        display: flex;
+        flex-direction:row;
+        .project-media {
+            margin-left: 5vw;
+        }
+
+        .project-text{
+            display: flex;
+            flex-direction: column;
+            margin-right: 9vw;
+            margin-top: 10vh;
+            font-size: 14px;
+            .proj-txt {
+                margin: 1vh 0 1vh 0;
+
+            }
+            .project-button {
+                height: auto;
+                margin-top: 3vh;
+                width: 8vw;
+            }
+        }
+    }
+}

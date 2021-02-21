@@ -1,0 +1,48 @@
+header {
+  display: flex;
+  justify-content: center;
+
+  nav {
+    height: 4rem;
+    width: 100%;
+    max-width: $page-width;
+    margin: 0% 10% 0% 10%;
+    display: flex;
+    align-items: stretch;
+
+    .nav-item--stretch {
+      flex: 1;
+    }
+
+    a {
+      font-size: 1rem;
+      color: $primary-500;
+      text-decoration: none;
+
+      &.nav-item--active {
+        font-weight: 500;
+        color: $primary-400;
+      }
+
+      &:hover {
+        color: inherit;
+      }
+
+      display: flex;
+      align-items: center;
+      padding: 0 1rem;
+    }
+
+    a.nav-item--primary, a.nav-item--primary.nax-item--active {
+      font-weight: 700;
+      color: $primary-500;
+      
+    }
+
+    > * + * {
+      margin-left: 1rem;
+    }
+  }
+
+
+}

@@ -1,0 +1,14 @@
+$page-width: 100%;
+
+$primary-100: #FFFFFF; // Background color
+$primary-200: #EEE5E5; // Secondary Background color
+$primary-300: #F0C2C2; // Different pink shade
+$primary-400: #0B55C5; // Accent color 
+$primary-500: #000000; // Font color 
+
+@import "./style/index.scss";
+@import "./style/Navbar.scss";
+@import "./style/Button.scss";
+@import "./style/Layout.scss";
+@import "./style/Home.scss";
+@import "./style/Projects.scss"
